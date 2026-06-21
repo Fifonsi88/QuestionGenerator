@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Question Generator"</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head >
+<body>
+   <h1>QUESTION GENERATOR</h1>
+   <br>
+   <br>
+   
+    <form action="/generate" method="post">
+     <label for="sub">Subjects</label>
+     <br><br>
+     <input type="text" id="sub">
+     <br><br>
+     <label for="Topic">Topic</label>
+     <br><br>
+     <input type="text" id="Topic">
+     <br><br>
+     <label for="no.">Number Of Questions</label>
+     <br><br>
+     <input type="number"id=no. min="1"max="20 "value="5"required>
+     <br>
+     <br>
+     <button type="submit">Generate Questions</button>
+
+    </form>
+
+   <!--RESULTS-->
+
+     <p class="footer">built by FIFONSI MARIA</p>
+
+    </body>
+</html>
